@@ -1230,8 +1230,8 @@ technique UIDetectMulti
 	#if (UIDM_MASK_COUNT > 4)
 		pass {
 			VertexShader = PostProcessVS;
-			PixelShader = PS_UIDetect4;
-			RenderTarget = texUIDetectMulti4;
+			PixelShader = PS_UIDetect5;
+			RenderTarget = texUIDetectMulti5;
 		}
 		pass {
 			VertexShader = PostProcessVS;
